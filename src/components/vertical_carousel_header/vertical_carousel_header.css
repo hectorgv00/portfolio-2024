@@ -1,0 +1,20 @@
+span {
+  color: white;
+
+  animation: from-top-to-bottom 3s infinite;
+}
+
+@keyframes from-top-to-bottom {
+  0% {
+    transform: translateY(-1000px);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1000px);
+  }
+}
